@@ -1,5 +1,0 @@
-RWI_female2015<-read_dta("C:/Users/USER/Desktop/Project/RWIR70FL.DTA")%>% select(v012,v106,v119,v130,v190,v151,v152,v136,v212,v213,v217,v219,v228,v301,v302,v313,v325a,v3a02,v367,v3a08m,v525,sdistrict,v102)
-getwd()
-setwd("C:/Users/USER/Desktop/Project")
-write.csv(RWI_female2015, "RWI_Female2015.csv")
-Women_2010<-read.csv("C:/Users/USER/Desktop/Project/Demographic and Health Survey 2010_CSV/Demographic Health Survey 2010_CSV/Woman.csv")%>%select(v012,v024,v106,v119,v130,v136,v151,v190,v213,v217,v219,v228,v525,S105,SDISTR)
